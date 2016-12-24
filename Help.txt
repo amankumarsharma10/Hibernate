@@ -1,0 +1,5 @@
+STEPS:
+	1. Setup Maven into your system
+	2. Open Project in IDE (Intellij Idea/Eclipse)
+	3. Create database 
+	4. Setup connection with db username and password "hibernate.cfg.xml" file
