@@ -1,0 +1,16 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hbm2ddl.auto">create</property>
+        <property name="dialect"> org.hibernate.dialect.MySQLDialect</property>
+        <property name="connection.url">jdbc:mysql://localhost/testonetoone</property>
+        <property name="connection.username">aman</property>
+        <property name="connection.password">aman</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="show_sql">true</property>
+        <mapping class="com.hibernate.persistance.Employee"/>
+        <mapping class="com.hibernate.persistance.Department"/>
+    </session-factory>
+</hibernate-configuration>
