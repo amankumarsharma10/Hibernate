@@ -1,4 +1,4 @@
-STEPS:
+STEPS to setup:
 	1. Setup Maven into your system
 	2. Open Project in IDE (Intellij Idea/Eclipse)
 	3. Create database 
